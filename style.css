@@ -8,4 +8,41 @@ background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+
 body
 {
     background: rgba(224,233,221,255);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header_div
+{
+    background: aquamarine;
+    color:black;
+}
+
+.header_div p
+{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div button
+{
+    color: black;
+    margin-top: 13px;
+    width: 130px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: aquamarine;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149, 149);
 }
